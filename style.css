@@ -85,7 +85,7 @@ Thired Sextion : products
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
     justify-items: center;
-    margin: 0 250px;
+    margin: 0 225px;
 }
 .items>img{
     width: 300px;
@@ -174,6 +174,10 @@ footer>p{
 Media Query
 --------------------------------------------------------------------- */
 
+/* ----------------------------------------------------------------------
+Mobile version
+---------------------------------------------------------------------- */
+
 @media only screen and (max-width: 688px) {
     header{
         display: none;
@@ -197,6 +201,12 @@ Media Query
         margin: auto;
         justify-items: center;
     }
+    p{
+        margin-bottom: 25px;
+    }
+    .ankor-fill{
+      margin-left: 70px;
+    }
     .second-section{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -209,6 +219,7 @@ Media Query
         width: 20px;
         height: 8px;
         margin: 15px;
+        margin-top: 30px;
     }
     .products{
         display: grid;
@@ -230,12 +241,20 @@ Media Query
     }
     .build{
         margin: 10px;
+        margin-bottom: 20px;
     }
     .see-more{
         text-align: right;
         margin: 10px;
     }
+    .last-button{
+        margin-left: 45px;
+    }
 }
+/* ----------------------------------------------------------------------
+Ipad Mini version (width : 820)
+---------------------------------------------------------------------- */
+
     @media only screen and (min-width: 689px) and (max-width: 991px) {
 
         .phone{
