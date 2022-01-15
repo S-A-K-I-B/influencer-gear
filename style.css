@@ -1,0 +1,23 @@
+body{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Spline Sans', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+nav>ul>li{
+    list-style: none;
+    display: flex;
+}
+nav ul{
+display: flex;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-left: 1.2em;
+}
