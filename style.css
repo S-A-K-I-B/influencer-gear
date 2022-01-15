@@ -44,7 +44,7 @@ First section
     font-size: 52px;
 }
 p{
-    font-weight: 600;
+    font-weight: 550;
 }
 .main-camera{
     margin: 0 120px 70px 65px;
@@ -93,8 +93,9 @@ Thired Sextion : products
     margin: 15px;
 }
 .items{
-    height: 480px;
+    height: 490px;
     width: 330px;
+    border-radius: 5px;
     padding: 15px;
     box-shadow: 0 0 40px rgba(128, 128, 128, 0.575);
 }
@@ -104,6 +105,68 @@ Thired Sextion : products
 .items>p{
     color: #787885;
 }
-.fas{
+.items .fas{
     color: goldenrod;
+    margin-bottom: 10px;
+}
+.see-more{
+   
+    text-align: right;
+    margin: 10px 190px;
+}
+.see-more>a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #E02C6D;
+}
+/* ------------------------------------------------------------
+Creative Section 
+------------------------------------------------------------ */
+.creative-section{
+    display: flex;
+    align-items: center;
+    margin: 80px 170px;
+}
+.creative-section img{
+    height: 270px;
+    width: 400px;
+    border-radius: 10px;
+}
+.build{
+    margin-left: 95px;
+}
+.build>p{
+    color: #787885;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.last-button{
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    background-color: #E02C6D;
+}
+/* --------------------------------------------------------------
+Footer 
+-------------------------------------------------------------- */
+footer{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(1, 1, 29);
+}
+footer>p{
+    font-weight: 500;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social>.fab{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgba(128, 128, 128, 0.479);
 }
