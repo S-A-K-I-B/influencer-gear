@@ -170,3 +170,58 @@ footer>p{
     border-radius: 50px;
     background-color: rgba(128, 128, 128, 0.479);
 }
+
+/* ---------------------------------------------------------------------
+Media Query
+--------------------------------------------------------------------- */
+
+@media only screen and (max-width: 688px) {
+    header{
+        display: none;
+    }
+    .phone{
+        display: block;
+    }
+    .first-section{
+        display: block;
+        width: 100%;
+    }
+    .primary{
+        margin: 30px;
+    }
+    .main-camera>img{
+        height: 300px;
+        width: 300px;
+        margin: auto;
+        justify-items: center;
+    }
+    .second-section{
+        display: none;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        margin: 20px;
+        justify-items: center;
+    }
+    .creative-section{
+        display: block;
+        align-items: center;
+        margin: 60px;
+    }
+.creative-section img{
+    justify-items: center;
+    height: 200px;
+    width: 275px;
+    border-radius: 10px;
+    }
+    .build{
+        margin: 10px;
+}
+}
+@media only screen and (min-width: 992px) {
+    .phone{
+       display: none;
+    }
+}
